@@ -3,8 +3,8 @@ import { HttpClient } from '@angular/common/http';
 import { Stock } from '../models/stock';
 import { Observable, of } from 'rxjs';
 
-let stocks: Array<string> = ['AAPL', 'GOOG', 'FB', 'AMZN', 'TWTR'];
-let apiUri: string = 'https://angular2-in-action-api.herokuapp.com';
+const stocks: Array<string> = ['AAPL', 'GOOG', 'FB', 'AMZN', 'TWTR', 'MSFT'];
+const apiUri = 'https://angular2-in-action-api.herokuapp.com';
 
 @Injectable({
   providedIn: 'root'
